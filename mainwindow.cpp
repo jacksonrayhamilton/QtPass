@@ -834,11 +834,11 @@ void MainWindow::readyRead(bool finished = false) {
 
         for (int j = 0; j < tokens.length(); ++j) {
           QString token = tokens.at(j);
-          if (token.contains(':')) {
-            int colon = token.indexOf(':');
+          if (token.contains(": ")) {
+            int colon = token.indexOf(": ");
             QString field = token.left(colon);
             if (templateAllFields || passTemplate.contains(field)) {
-              QString value = token.right(token.length() - colon - 1);
+              QString value = token.right(token.length() - colon - 2);
               if (!passTemplate.contains(field) && value.startsWith("//"))
                 continue; // colon is probably from a url
               QLineEdit *line = new QLineEdit();
