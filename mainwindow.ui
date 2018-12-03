@@ -67,6 +67,24 @@
         </widget>
        </item>
        <item>
+        <widget class="QToolButton" name="renameButton">
+         <property name="toolTip">
+          <string>Rename</string>
+         </property>
+         <property name="text">
+          <string>Rename</string>
+         </property>
+         <property name="icon">
+          <iconset theme="insert-text">
+           <normalon>:/icons/insert-text.svg</normalon>
+          </iconset>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextBesideIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QToolButton" name="editButton">
          <property name="toolTip">
           <string>Edit</string>

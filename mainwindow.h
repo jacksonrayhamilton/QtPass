@@ -84,7 +84,7 @@ struct passwordConfiguration {
 class MainWindow : public QMainWindow {
   Q_OBJECT
 
-  enum actionType { GPG, GIT, EDIT, DELETE, GPG_INTERNAL, PWGEN };
+  enum actionType { GPG, GIT, RENAME, EDIT, DELETE, GPG_INTERNAL, PWGEN };
 
 public:
   /**
@@ -141,6 +141,7 @@ private slots:
   void on_lineEdit_textChanged(const QString &arg1);
   void on_lineEdit_returnPressed();
   void on_addButton_clicked();
+  void on_renameButton_clicked();
   void on_deleteButton_clicked();
   void on_editButton_clicked();
   void on_usersButton_clicked();

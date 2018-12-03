@@ -964,6 +964,7 @@ void MainWindow::enableUiElements(bool state) {
   state &= ui->treeView->currentIndex().isValid();
   ui->deleteButton->setEnabled(state);
   ui->editButton->setEnabled(state);
+  ui->renameButton->setEnabled(state);
   ui->pushButton->setEnabled(state);
 }
 
@@ -1234,6 +1235,39 @@ void MainWindow::on_addButton_clicked() {
     file += ".gpg";
   lastDecrypt = "";
   setPassword(file, false, true);
+}
+
+/**
+ * @brief MainWindow::on_renameButton_clicked rename a password file.
+ */
+void MainWindow::on_renameButton_clicked() {
+  bool ok;
+  QFileInfo fileOrFolder =
+    model.fileInfo(proxyModel.mapToSource(ui->treeView->currentIndex()));
+  QString title = "";
+  QString message = "";
+  QString oldFile = "";
+  if (fileOrFolder.isFile()) {
+    title = tr("Rename file");
+    message = tr("New file name:");
+    oldFile = getFile(ui->treeView->currentIndex(), usePass);
+  } else {
+    title = tr("Rename folder");
+    message = tr("New folder name:");
+    oldFile = getDir(ui->treeView->currentIndex(), usePass);
+    oldFile.chop(1); // Remove trailing slash.
+  }
+  QString newFile = QInputDialog::getText(
+      this, title, message, QLineEdit::Normal, oldFile, &ok);
+  if (!ok || newFile.isEmpty() || oldFile == newFile)
+    return;
+  if (!usePass && fileOrFolder.isFile())
+    newFile += ".gpg";
+  lastDecrypt = "";
+  if (usePass) {
+    currentAction = RENAME;
+    executePass("mv \"" + oldFile + "\" \"" + newFile + "\"");
+  }
 }
 
 /**
