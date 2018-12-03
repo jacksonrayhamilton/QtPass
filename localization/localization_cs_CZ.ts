@@ -517,72 +517,78 @@ Expire-Date: 0
     <message>
         <location filename="../mainwindow.ui" line="72"/>
         <location filename="../mainwindow.ui" line="75"/>
-        <location filename="../mainwindow.cpp" line="1792"/>
-        <source>Edit</source>
-        <translation>Upravit</translation>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="90"/>
         <location filename="../mainwindow.ui" line="93"/>
-        <location filename="../mainwindow.cpp" line="1804"/>
+        <location filename="../mainwindow.cpp" line="1826"/>
+        <source>Edit</source>
+        <translation>Upravit</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="108"/>
+        <location filename="../mainwindow.ui" line="111"/>
+        <location filename="../mainwindow.cpp" line="1838"/>
         <source>Delete</source>
         <translation>Smazat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="124"/>
+        <location filename="../mainwindow.ui" line="142"/>
         <source>git push</source>
         <translation>git push</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="127"/>
+        <location filename="../mainwindow.ui" line="145"/>
         <source>Push</source>
         <translation>Odeslat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="142"/>
+        <location filename="../mainwindow.ui" line="160"/>
         <source>git pull</source>
         <translation>git pull</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="145"/>
+        <location filename="../mainwindow.ui" line="163"/>
         <source>Update</source>
         <translation>Stáhnout</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="176"/>
+        <location filename="../mainwindow.ui" line="194"/>
         <source>Manage who can read password in folder</source>
         <translation>Správa oprávnění číst data v adresáři</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="179"/>
-        <location filename="../mainwindow.cpp" line="1786"/>
+        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.cpp" line="1820"/>
         <source>Users</source>
         <translation>Uživatelé</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Configuration</source>
         <translation>Konfigurace</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="215"/>
         <source>Config</source>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="228"/>
-        <location filename="../mainwindow.ui" line="231"/>
-        <location filename="../mainwindow.cpp" line="1822"/>
+        <location filename="../mainwindow.ui" line="246"/>
+        <location filename="../mainwindow.ui" line="249"/>
+        <location filename="../mainwindow.cpp" line="1856"/>
         <source>Copy Password</source>
         <translation>Kopírovat heslo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="299"/>
+        <location filename="../mainwindow.ui" line="317"/>
         <source>Search Password</source>
         <translation>Hledat heslo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="328"/>
+        <location filename="../mainwindow.ui" line="346"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -601,7 +607,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/IJHack/qtpass&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica Neue,Helvetica,Segoe UI,Arial,freesans,sans-serif&apos;; font-size:13pt; text-decoration: underline; color:#4183c4; background-color:transparent;&quot;&gt;Zdrojový kód&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="348"/>
+        <location filename="../mainwindow.ui" line="366"/>
         <source>qtpass</source>
         <translation>qtpass</translation>
     </message>
@@ -659,15 +665,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="716"/>
-        <location filename="../mainwindow.cpp" line="1179"/>
-        <location filename="../mainwindow.cpp" line="1355"/>
-        <location filename="../mainwindow.cpp" line="2047"/>
+        <location filename="../mainwindow.cpp" line="1180"/>
+        <location filename="../mainwindow.cpp" line="1389"/>
+        <location filename="../mainwindow.cpp" line="2081"/>
         <source>Can not edit</source>
         <translation>Nelze upravovat</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="717"/>
-        <location filename="../mainwindow.cpp" line="1356"/>
+        <location filename="../mainwindow.cpp" line="1390"/>
         <source>Selected password file does not exist, not able to edit</source>
         <translation>Vybraný soubor s heslem neexistuje, nelze upravovat</translation>
     </message>
@@ -701,161 +707,181 @@ p, li { white-space: pre-wrap; }
         <translation>Skryté heslo i obsah</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="978"/>
+        <location filename="../mainwindow.cpp" line="979"/>
         <source>QProcess::FailedToStart</source>
         <translation>QProcess::FailedToStart</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="981"/>
+        <location filename="../mainwindow.cpp" line="982"/>
         <source>QProcess::Crashed</source>
         <translation>QProcess::Crashed</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="985"/>
         <source>QProcess::Timedout</source>
         <translation>QProcess::Timedout</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="987"/>
+        <location filename="../mainwindow.cpp" line="988"/>
         <source>QProcess::ReadError</source>
         <translation>QProcess::ReadError</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="990"/>
+        <location filename="../mainwindow.cpp" line="991"/>
         <source>QProcess::WriteError</source>
         <translation>QProcess::WriteError</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="994"/>
         <source>QProcess::UnknownError</source>
         <translation>QProcess::UnknownError</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1041"/>
+        <location filename="../mainwindow.cpp" line="1042"/>
         <source>Looking for: %1</source>
         <translation>Vyhledávání: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1180"/>
-        <location filename="../mainwindow.cpp" line="2048"/>
+        <location filename="../mainwindow.cpp" line="1181"/>
+        <location filename="../mainwindow.cpp" line="2082"/>
         <source>Could not read encryption key to use, .gpg-id file missing or invalid.</source>
         <translation>Nelze načíst šifrovací klíč, .gpg-id soubor chybí nebo je neplatný.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1226"/>
-        <location filename="../mainwindow.cpp" line="1840"/>
+        <location filename="../mainwindow.cpp" line="1227"/>
+        <location filename="../mainwindow.cpp" line="1874"/>
         <source>New file</source>
         <translation>Nový soubor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1227"/>
+        <location filename="../mainwindow.cpp" line="1228"/>
         <source>New password file: 
 (Will be placed in %1 )</source>
         <translation>Nový soubor s heslem: 
 (Bude uložen do %1 )</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1250"/>
+        <location filename="../mainwindow.cpp" line="1251"/>
+        <source>Rename file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1252"/>
+        <source>New file name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1255"/>
+        <source>Rename folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1256"/>
+        <source>New folder name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1284"/>
         <source>Delete password?</source>
         <translation>Smazat heslo?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1251"/>
-        <location filename="../mainwindow.cpp" line="1279"/>
+        <location filename="../mainwindow.cpp" line="1285"/>
+        <location filename="../mainwindow.cpp" line="1313"/>
         <source>Are you sure you want to delete %1?</source>
         <translation>Opravdu chcete smazat %1?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1278"/>
+        <location filename="../mainwindow.cpp" line="1312"/>
         <source>Delete folder?</source>
         <translation>Smazat adresář?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1423"/>
+        <location filename="../mainwindow.cpp" line="1457"/>
         <source>Can not get key list</source>
         <translation>Nelze získat seznam klíčů</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1424"/>
+        <location filename="../mainwindow.cpp" line="1458"/>
         <source>Unable to get list of available gpg keys</source>
         <translation>Nelze získat seznam dostupných gpg klíčů</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1455"/>
+        <location filename="../mainwindow.cpp" line="1489"/>
         <source>Key not found in keyring</source>
         <translation>Klíč nebyl v klíčence nalezen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1486"/>
+        <location filename="../mainwindow.cpp" line="1520"/>
         <source>Cannot update</source>
         <translation>Nelze aktualizovat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1487"/>
+        <location filename="../mainwindow.cpp" line="1521"/>
         <source>Failed to open .gpg-id for writing.</source>
         <translation>Selhalo otevření .gpg-id pro zápis.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1500"/>
+        <location filename="../mainwindow.cpp" line="1534"/>
         <source>Check selected users!</source>
         <translation>Zaškrtnout vybrané uživatele!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1501"/>
+        <location filename="../mainwindow.cpp" line="1535"/>
         <source>None of the selected keys have a secret key available.
 You will not be able to decrypt any newly added passwords!</source>
         <translation>Pro žádný z vybraných klíčů není dostupný tajný klíč.
 Nebudete moci dešifrovat žádná nově přidaná hesla!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1594"/>
+        <location filename="../mainwindow.cpp" line="1628"/>
         <source>Generating GPG key pair</source>
         <translation>Generování páru GPG klíčů</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1639"/>
+        <location filename="../mainwindow.cpp" line="1673"/>
         <source>Profile changed to %1</source>
         <translation>Profil změněn na %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1784"/>
+        <location filename="../mainwindow.cpp" line="1818"/>
         <source>Add folder</source>
         <translation>Přidat adresář</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1785"/>
+        <location filename="../mainwindow.cpp" line="1819"/>
         <source>Add password</source>
         <translation>Přidat heslo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1841"/>
+        <location filename="../mainwindow.cpp" line="1875"/>
         <source>New Folder: 
 (Will be placed in %1 )</source>
         <translation>Nový adresář: 
 (Bude umístěn do %1 )</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1912"/>
+        <location filename="../mainwindow.cpp" line="1946"/>
         <source>No characters chosen</source>
         <translation>Znaky nebyly vybrány</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1913"/>
+        <location filename="../mainwindow.cpp" line="1947"/>
         <source>Can&apos;t generate password, there are no characters to choose from set in the configuration!</source>
         <translation>Nelze generovat heslo, v nastavení nebyla vybrána skladba znaků pro heslo!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1932"/>
+        <location filename="../mainwindow.cpp" line="1966"/>
         <source>Timed out</source>
         <translation>Vypršelo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1933"/>
+        <location filename="../mainwindow.cpp" line="1967"/>
         <source>Can&apos;t start process, previous one is still running!</source>
         <translation>Nelze spustit, předchozí proces stále běží!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1961"/>
+        <location filename="../mainwindow.cpp" line="1995"/>
         <source>Password copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -864,7 +890,7 @@ Nebudete moci dešifrovat žádná nově přidaná hesla!</translation>
         <translation type="vanished">zkopírovat do schránky</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1989"/>
+        <location filename="../mainwindow.cpp" line="2023"/>
         <source>Re-encrypting from folder %1</source>
         <translation>Nově šifrováno z adresáře %1</translation>
     </message>
