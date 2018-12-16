@@ -694,6 +694,7 @@ void MainWindow::on_treeView_clicked(const QModelIndex &index) {
                          file + '"');
   } else {
     ui->editButton->setEnabled(false);
+    ui->renameButton->setEnabled(true);
     ui->deleteButton->setEnabled(true);
   }
 }
