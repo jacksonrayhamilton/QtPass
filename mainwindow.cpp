@@ -1815,6 +1815,10 @@ void MainWindow::showContextMenu(const QPoint &pos) {
       model.fileInfo(proxyModel.mapToSource(ui->treeView->currentIndex()));
 
   QMenu contextMenu;
+  if (selected) {
+    QAction *rename = contextMenu.addAction(tr("Rename"));
+    connect(rename, SIGNAL(triggered()), this, SLOT(on_renameButton_clicked()));
+  }
   if (!selected || fileOrFolder.isDir()) {
     QAction *addFolder = contextMenu.addAction(tr("Add folder"));
     QAction *addPassword = contextMenu.addAction(tr("Add password"));
